@@ -20,6 +20,20 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 # Research Aid Project
+<div style="display: flex; overflow-x: auto; max-width: 100%;">
+    <div style="min-width: 300px; margin: 10px;">
+        <img src="https://github.com/Aditi31kapil/InsightAI/blob/main/Screenshot%202024-11-11%20042324.png" alt="Image 1" style="width: 100%; height: auto;"/>
+    </div>
+    <div style="min-width: 300px; margin: 10px;">
+        <img src="https://github.com/Aditi31kapil/InsightAI/blob/main/Screenshot%202024-11-11%20042346.png" alt="Image 2" style="width: 100%; height: auto;"/>
+    </div>
+    <div style="min-width: 300px; margin: 10px;">
+        <img src="https://github.com/Aditi31kapil/InsightAI/blob/main/Screenshot%202024-11-11%20042417.png" alt="Image 3" style="width: 100%; height: auto;"/>
+    </div>
+</div>
+
+
+
 
 ## Overview
 
