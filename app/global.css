@@ -1,0 +1,75 @@
+/* General Body Styling */
+/* Primary Color */
+:root {
+  --primary-color: #003366;
+  --secondary-color: #66b3ff;
+  --background-color: #f4f7f6;
+  --text-color: #333333;
+  --accent-color: #00796b;
+  --highlight-color: #ffd54f;
+  --error-color: #e57373;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  min-height: 100vh; /* Ensure full height */
+}
+
+/* Header Styling */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem; /* Added padding for better spacing */
+  text-align: center;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); Add shadow for a modern look */
+  position: relative;
+  top: 0;
+  width: 900px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Title Styling */
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0; /* Remove margin for better control */
+  line-height: 1.2;
+}
+
+/* Header Description Styling */
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: 300; /* Lighter weight for the description */
+  max-width: 800px; /* Restrict width for better readability */
+  margin-left: auto;
+  margin-right: auto; /* Center align the paragraph */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  header h1 {
+    font-size: 2rem; /* Adjust font size for better responsiveness */
+  }
+
+  header p {
+    font-size: 1rem; /* Adjust font size for better readability */
+  }
+}
