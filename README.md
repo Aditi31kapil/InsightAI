@@ -19,6 +19,29 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Research Aid Project
+
+## Overview
+
+The Research Aid Project is designed to facilitate research work by providing users with access to the latest academic papers based on specified topics. By entering a research topic, users can easily retrieve relevant papers and understand them through engaging storytelling and highlighted essential points.
+
+## Features
+
+- **Topic-Based Search**: Users can input any research topic to find the latest related papers.
+- **Storytelling Feature**: A unique option that simplifies complex research papers into engaging narratives.
+- **Key Points Summary**: Essential aspects of the research are highlighted, including:
+  - Challenges faced
+  - Research approach
+  - Key findings
+  - Significance of the work
+
+## Technology Stack
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **JavaScript**: The primary programming language used in the project.
+- **Node.js**: For backend services and API handling.
+- **CSS**: For styling the application.
+
 
 ## Learn More
 
