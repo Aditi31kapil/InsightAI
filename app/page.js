@@ -18,7 +18,7 @@ export default function ResearchPaperDisplay() {
   const [funFacts, setFunFacts] = useState([]);
   const [relatedTopics, setRelatedTopics] = useState([]);
   const cerebras = new Cerebras({ 
-    apiKey: 'Cerebral Api Key' 
+    apiKey: process.env.CEREBRAS_API_KEY;
   })
   // Function to fetch fun facts while processing
   const getFunFacts = async (query) => {
