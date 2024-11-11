@@ -240,32 +240,6 @@ export default function ResearchPaperDisplay() {
     }
   };
   // JavaScript code to make the popup draggable
-
-document.addEventListener('DOMContentLoaded', () => {
-  // Wait for the DOM to fully load before adding event listeners
-
-  const storyPopup = document.querySelector('.story-popup');
-  
-  if (!storyPopup) {
-    console.error("The .story-popup element is not found.");
-    return; // Stop the script if the element is not found
-  }
-
-  // Variables to hold the mouse position
-  let offsetX, offsetY;
-
-  storyPopup.addEventListener('mousedown', (e) => {
-    // Get the initial mouse position
-    offsetX = e.clientX - storyPopup.getBoundingClientRect().left;
-    offsetY = e.clientY - storyPopup.getBoundingClientRect().top;
-
-    // Add mousemove event to move the popup
-    document.addEventListener('mousemove', onMouseMove);
-    
-    // Add mouseup event to stop moving the popup
-    document.addEventListener('mouseup', onMouseUp);
-  });
-
   function onMouseMove(e) {
     // Update the position of the popup as the mouse moves
     storyPopup.style.left = `${e.clientX - offsetX}px`;
